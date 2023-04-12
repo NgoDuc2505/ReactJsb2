@@ -1,0 +1,16 @@
+.myBody{
+    background-image: url(/public/glassesBg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+.myBody::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29, 28, 54);
+    opacity: .5;
+}

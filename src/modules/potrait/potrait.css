@@ -1,0 +1,98 @@
+.model_img{
+    background-image: url(../../../public/model.jpg);
+    width: 20%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:150px;
+    right: 15%;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.model_img.left{
+    right: unset;
+    left: 15%;
+}
+.glass_wearing{
+    height: 65px;
+    width: 190px;
+    opacity: .6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 92px;
+    left: 51%;
+    transform: translateX(-50%);
+    object-fit: cover;
+}
+
+.glass_info{
+    background-color: rgb(133, 92, 170);
+    position: absolute;
+    bottom: 0;
+    opacity: .8;
+    padding: 10px;
+    padding-bottom: 0;
+    transform: translateY(100%);
+    overflow: hidden;
+    transition:all .5s;
+}
+.glass_info h4{
+    font-weight: 900;
+}
+.glass_info h3{
+    color: black;
+}
+.glass_info p{
+    color: antiquewhite;
+}
+
+.model_img:hover .glass_info{
+    transform: translateY(0);
+}
+
+.glass_wrapper{
+    background-color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 20px 5px rgb(0, 0, 0,0.5);
+}
+.glass{
+    background-color: #fff;
+    width: 10%;
+    height: 72px;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.glass img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+.glass4{
+    height: 58px;
+}
+.glass3 img,
+.glass4 img{
+    height: 75%;
+}
+.glass3,
+.glass4{
+    height: 60px;
+    padding-top: 15px
+}
+.glass:hover{
+    transform: translateY(-20px);
+}

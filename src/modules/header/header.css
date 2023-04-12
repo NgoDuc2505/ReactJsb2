@@ -1,0 +1,24 @@
+.navbar .navMenu{
+    margin-left: 50%;
+    font-size: 1.5rem;
+}
+
+.myHeader .nav-link{
+    margin-right: 10px;
+    color: rgb(182, 163, 210);
+    font-weight: 600;
+}
+
+.myHeader{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(5px);
+}
+
+.myHeader .navbar-brand{
+    color: rgb(25, 126, 214);
+    font-size: 2rem;
+    margin-left: 20px;
+}
